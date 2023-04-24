@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const aluno1 = {
+            ra: '0030482121007',
+            nome: 'Giovana'
+        };
+        alert ("Aluno 1 - RA: " + aluno1.ra + " Nome: " + aluno1.nome);
+
+
+        const aluno123 = new Object();
+        aluno123.ra = '0030496854';
+        aluno123.nome = 'Darci';
+        alert ("Aluno 123 - RA: " + aluno123.ra + " Nome: " + aluno123.nome);
+
+        var aluno12 = {};
+        aluno12.ra = '26584589';
+        aluno12["nome"] = 'Natasha';
+        alert ("Aluno 12 - RA: " + aluno12.ra + " Nome: " + aluno12.nome);
+
+        function Aluno(ra, nome){
+            this.ra = ra;
+            this.nome = nome;
+
+            this.MostraDados = function(){
+                alert ("RA: " + this.ra + " Nome: " + this.nome);
+
+            }
+        }
+
+        var aluno1234 = new Aluno("1259648", "Steve Rogers");
+        var x = aluno1234.MostraDados();
+
+    </script>
+</body>
+</html>
