@@ -1,0 +1,27 @@
+/* CSS para a janela aberta */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center; /* Centraliza o texto na janela */
+}
+ 
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: justify; /* Centraliza o texto na janela */
+  }
+  
+  #info{
+    text-align: center;
+  }
