@@ -1,0 +1,30 @@
+body{
+    background-color:#22c8ce;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+
+#formP, h2, h3, #sim, #nao{
+    color:blue;
+}
+
+#pesq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+#envio {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+  }
+  
+  #envio .botao-envio {
+    margin-left: 10px;
+  }

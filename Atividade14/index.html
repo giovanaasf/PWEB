@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Giovana">
+    <title>Atividade 14</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    
+    <h1>Formulário Principal</h1>
+    <hr>
+    <br>
+    <form action="excecao" method="POST" name="form1" id="form1" onsubmit=" return validarDados();">
+        <div id="formP">
+            <i> Nome: </i>
+            <br>
+            <input name="idNome" type="text" id="idNome" size="52" maxlength="150">
+            <br>
+            <br> <i>E-Mail:</i>
+            <br>
+            <input name="idEmail" type="email" id="idEmail" size="30" maxlength="150">
+            <br>
+            <br> <i>Comentário:</i>
+            <br>
+            <textarea name="idComentario" cols="40" rows="8" id="idComentario" value="" input></textarea>
+            <br>
+            <br>
+        </div>
+    </form>
+    <br>
+    <br>
+    <div id="pesq">
+        <h2>Pesquisa:</h2>
+        <h3><i>Primeira vez nessa página??</i></h3>
+        <br>
+        <form name="verificaPesq">
+            <input type="radio" name="vez" id="sim" value="sim" required>
+            <label for="sim" id="sim">Sim</label>
+            <input type="radio" name="vez" id="nao" value="nao" required>
+            <label for="nao" id="nao">Não</label>
+        </form>
+        <br>
+    </div>
+        <div id="envio">
+            <div class="botao-envio">
+                <input name="Submit" type="submit" form="form1" value="Enviar" onclick="exibirMensagem()">
+            </div>
+            <div class="botao-envio">
+                <input name="Reset" type="reset" form="form1" value="Limpar" onclick="limparSelecao()">
+            </div>
+            <script src="./js/javascript.js"></script>
+</body>
+
+</html>
